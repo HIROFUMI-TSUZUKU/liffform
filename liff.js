@@ -30,7 +30,7 @@ function sendText(text) {
     },{
         "type": "sticker",
         "packageId": "11537",
-        "stickerId": "52002735"
+        "stickerId": "52002734"
     }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
