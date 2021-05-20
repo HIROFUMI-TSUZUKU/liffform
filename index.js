@@ -1,5 +1,5 @@
 var params = (new URL(document.location)).searchParams;
-var key = params.get('key');
+var key = params.get('key');//keyはリッチメニューから送られてきたパラメータ
 
 $(function () {
     // 送信
